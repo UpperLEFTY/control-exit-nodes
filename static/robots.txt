@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://exitnodes.com/sitemap-index.xml
