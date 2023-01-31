@@ -12,7 +12,8 @@
   "serve": "gatsby serve",
   "clean": "gatsby clean"
 },
-  "dependencies": {
+
+"dependencies": {
 "@lekoarts/gatsby-theme-minimal-blog": "^6.0.5",
 "gatsby": "^5.5.0",
 "gatsby-plugin-feed": "^5.5.0",
@@ -22,6 +23,7 @@
 "react": "^18.2.0",
 "react-dom": "^18.2.0"
   },
+  
   "devDependencies": {
   "@types/node": "^18.11.18",
   "@types/react": "^18.0.27",
