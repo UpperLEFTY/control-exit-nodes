@@ -1,30 +1,19 @@
 import React, { useState } from 'react';
-
+import {
+  Routes, Route, useLocation, useNavigate, Link
+} from 'react-router-dom';
 const App = () => {
-  const [count, setCount] = useState(0);
+  const navigate = useNavigate();
+  const mainEndpoint = `${process.env.REACT_APP_API_URL}`;
+  const location = useLocation();
+  const siteAuthenticated = JSON.parse(sessionStorage.getItem('userAuth'));
 
+  React.useEffect(() => {
+    
+      }
+  
   return (
-    <div className='App'>
-      <div />
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button type='button' onClick={() => setCount((count) => count + 1)}>
-          count is
-          {' '}
-          {count}
-        </button>
-        <p>
-          Edit
-          {' '}
-          <code>src/App.jsx</code>
-          {' '}
-          and save to test HMR
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    
   );
 };
 
