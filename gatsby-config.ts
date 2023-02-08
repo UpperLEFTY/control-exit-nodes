@@ -13,13 +13,13 @@ const config: GatsbyConfig = {
     siteHeadline: `Exit Nodes `,
     siteUrl: `https://exitnodes.com`,
     siteDescription: `Typography driven, blog with minimal aesthetics.`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.jpeg`,
     author: `@upper-lefty`,
   },
   trailingSlash: `never`,
   plugins: [
     {
-      resolve: `@upper-lefty/minimal-blog`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
         navigation: [
@@ -60,8 +60,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `exit nodes`,
-        short_name: `exit-nodes`,
+        name: `miminimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        short_name: `minimal-blog`,
         description: `Typography driven, feature-rich blog with minimal aesthetics.`,
         start_url: `/`,
         background_color: `#fff`,
